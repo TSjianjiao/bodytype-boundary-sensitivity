@@ -10,6 +10,8 @@ prepared for the dataset release and is not stored in this repository.
 
 - Source page:
   https://bodytype.org/research/boundary-sensitivity-body-type-calculator
+- Dataset mirror:
+  https://huggingface.co/datasets/xxxhhhollll/bodytype-boundary-sensitivity
 - Algorithm version: v2
 - Dataset version: 1.0.0
 - Site status: the source page is currently `noindex` while author attribution
@@ -103,7 +105,9 @@ commit, Node version and checksums with any redistribution.
 ## Full grid
 
 The full 669,858-row parquet grid is not committed here. It is distributed
-with the dataset release. `data/PARQUET.md` records:
+with the dataset release at
+https://huggingface.co/datasets/xxxhhhollll/bodytype-boundary-sensitivity.
+`data/PARQUET.md` records:
 
 - 669,858 rows × 26 columns
 - 3,172,344 bytes
