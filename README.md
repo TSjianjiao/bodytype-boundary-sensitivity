@@ -12,6 +12,7 @@ prepared for the dataset release and is not stored in this repository.
   https://bodytype.org/research/boundary-sensitivity-body-type-calculator
 - Dataset mirror:
   https://huggingface.co/datasets/xxxhhhollll/bodytype-boundary-sensitivity
+- Version DOI: https://doi.org/10.5281/zenodo.24283466
 - Algorithm version: v2
 - Dataset version: 1.0.0
 - Site status: the source page is currently `noindex` while author attribution
@@ -137,9 +138,10 @@ if changes were made. See `LICENSE-DATA` and `NOTICE` for the exact wording.
 
 ## Citation
 
-Use `CITATION.cff`. This is release `1.0.0`. A Zenodo version DOI will be added
-when the archive record is published. Until then, cite the source page and this
-version. Do not cite a DOI that has not been published.
+Use `CITATION.cff`. This is release `1.0.0`. The version DOI is
+https://doi.org/10.5281/zenodo.24283466; the concept DOI
+https://doi.org/10.5281/zenodo.24283465 lists versions. Cite the version DOI
+for this snapshot.
 
 ## Contact
 

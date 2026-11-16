@@ -19,7 +19,14 @@ date-released: "2026-11-16"
 license: "CC-BY-4.0"
 url: "https://bodytype.org/research/boundary-sensitivity-body-type-calculator"
 repository-code: "https://github.com/TSjianjiao/bodytype-boundary-sensitivity"
+doi: "10.5281/zenodo.24283466"
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24283466"
+    description: "Zenodo version DOI"
+  - type: doi
+    value: "10.5281/zenodo.24283465"
+    description: "Zenodo concept DOI"
   - type: url
     value: "https://huggingface.co/datasets/xxxhhhollll/bodytype-boundary-sensitivity"
     description: "Hugging Face dataset mirror"
