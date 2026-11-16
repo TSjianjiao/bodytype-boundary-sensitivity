@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bodytype.org/research/boundary-sensitivity-body-type-calculator/schema.json",
+  "title": "Bodytype boundary sensitivity v2 grid row",
+  "description": "One row of the synthetic four-girth rule-space scan. The same schema applies to grid-sample.csv, the full grid.csv and grid.parquet. It is not a population record and contains no user measurements.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "hips_cm",
+    "bust_cm",
+    "waist_cm",
+    "high_hips_cm",
+    "bust_to_hip",
+    "waist_to_hip",
+    "high_hip_to_hip",
+    "base_label",
+    "stability_radius_cm",
+    "neighbor_labels",
+    "proximity_tier",
+    "nearest_threshold",
+    "nearest_threshold_distance",
+    "flip_any_0_5cm",
+    "flip_any_1cm",
+    "flip_any_2cm",
+    "flip_fields_1cm",
+    "flip_labels_1cm",
+    "round_0_5_label",
+    "round_1cm_label",
+    "round_0_1in_label",
+    "unit_round_trip_label",
+    "unit_round_trip_changed",
+    "at_boundary",
+    "skipped_out_of_range"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier, for example H100_B0.960_W0.720_HH0.940.",
+      "x-csv-type": "string",
+      "x-parquet-type": "STRING"
+    },
+    "hips_cm": {
+      "type": "integer",
+      "minimum": 40,
+      "maximum": 200,
+      "description": "Hip circumference in centimetres.",
+      "x-csv-type": "integer",
+      "x-parquet-type": "INT32"
+    },
+    "bust_cm": {
+      "type": "number",
+      "minimum": 40,
+      "maximum": 200,
+      "description": "Bust circumference in centimetres, before any rounding.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "waist_cm": {
+      "type": "number",
+      "minimum": 40,
+      "maximum": 200,
+      "description": "Waist circumference in centimetres, before any rounding.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "high_hips_cm": {
+      "type": "number",
+      "minimum": 40,
+      "maximum": 200,
+      "description": "High hip circumference in centimetres, before any rounding.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "bust_to_hip": {
+      "type": "number",
+      "description": "Bust-to-hip ratio, not rounded.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "waist_to_hip": {
+      "type": "number",
+      "description": "Waist-to-hip ratio, not rounded.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "high_hip_to_hip": {
+      "type": "number",
+      "description": "High-hip-to-hip ratio, not rounded.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "base_label": {
+      "type": "string",
+      "enum": ["hourglass", "pear", "inverted-triangle", "apple", "rectangle"],
+      "description": "Bodytype v2 label for the unshifted point.",
+      "x-csv-type": "enum",
+      "x-parquet-type": "STRING"
+    },
+    "stability_radius_cm": {
+      "type": "string",
+      "pattern": "^(0|[0-9]+(\\.[0-9]+)?|Infinity)$",
+      "description": "Smallest single-field shift that changes the label, in centimetres. 0 means the point sits on a boundary; Infinity means no other label is reachable within 60 cm. Stored as a string to preserve the exact notation.",
+      "x-csv-type": "number or string",
+      "x-parquet-type": "STRING"
+    },
+    "neighbor_labels": {
+      "type": "string",
+      "description": "Reachable labels in project order, separated by a vertical bar; empty when none are reachable.",
+      "x-csv-type": "string",
+      "x-parquet-type": "STRING"
+    },
+    "proximity_tier": {
+      "type": "string",
+      "enum": ["very-close", "close", "hidden"],
+      "description": "Display tier derived from the stability radius: very-close (<1 cm), close (<3 cm), hidden (>=3 cm).",
+      "x-csv-type": "enum",
+      "x-parquet-type": "STRING"
+    },
+    "nearest_threshold": {
+      "type": "string",
+      "description": "Nearest threshold label, for example bustToHip:0.95. This is a grouping field, not necessarily the threshold crossed by a flip.",
+      "x-csv-type": "string",
+      "x-parquet-type": "STRING"
+    },
+    "nearest_threshold_distance": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Absolute ratio distance to the nearest threshold; used for grouping only.",
+      "x-csv-type": "number",
+      "x-parquet-type": "DOUBLE"
+    },
+    "flip_any_0_5cm": {
+      "type": "boolean",
+      "description": "Whether any single-field ±0.5 cm shift changes the label.",
+      "x-csv-type": "boolean",
+      "x-parquet-type": "BOOLEAN"
+    },
+    "flip_any_1cm": {
+      "type": "boolean",
+      "description": "Whether any single-field ±1 cm shift changes the label.",
+      "x-csv-type": "boolean",
+      "x-parquet-type": "BOOLEAN"
+    },
+    "flip_any_2cm": {
+      "type": "boolean",
+      "description": "Whether any single-field ±2 cm shift changes the label.",
+      "x-csv-type": "boolean",
+      "x-parquet-type": "BOOLEAN"
+    },
+    "flip_fields_1cm": {
+      "type": "string",
+      "description": "Fields and directions that flip under ±1 cm, for example waist:+1; empty when no flip occurs.",
+      "x-csv-type": "string",
+      "x-parquet-type": "STRING"
+    },
+    "flip_labels_1cm": {
+      "type": "string",
+      "description": "Distinct labels reached under ±1 cm, separated by a vertical bar; empty when no flip occurs.",
+      "x-csv-type": "string",
+      "x-parquet-type": "STRING"
+    },
+    "round_0_5_label": {
+      "type": "string",
+      "enum": ["hourglass", "pear", "inverted-triangle", "apple", "rectangle"],
+      "description": "Label after rounding inputs to 0.5 cm.",
+      "x-csv-type": "enum",
+      "x-parquet-type": "STRING"
+    },
+    "round_1cm_label": {
+      "type": "string",
+      "enum": ["hourglass", "pear", "inverted-triangle", "apple", "rectangle"],
+      "description": "Label after rounding inputs to 1 cm.",
+      "x-csv-type": "enum",
+      "x-parquet-type": "STRING"
+    },
+    "round_0_1in_label": {
+      "type": "string",
+      "enum": ["hourglass", "pear", "inverted-triangle", "apple", "rectangle"],
+      "description": "Label after rounding inputs to 0.1 inch and converting back to centimetres.",
+      "x-csv-type": "enum",
+      "x-parquet-type": "STRING"
+    },
+    "unit_round_trip_label": {
+      "type": "string",
+      "enum": ["hourglass", "pear", "inverted-triangle", "apple", "rectangle"],
+      "description": "Label after exact cm → in → cm conversion with no intermediate rounding.",
+      "x-csv-type": "enum",
+      "x-parquet-type": "STRING"
+    },
+    "unit_round_trip_changed": {
+      "type": "boolean",
+      "description": "Whether the exact unit round trip changes the label.",
+      "x-csv-type": "boolean",
+      "x-parquet-type": "BOOLEAN"
+    },
+    "at_boundary": {
+      "type": "boolean",
+      "description": "Whether the stability radius is 0.",
+      "x-csv-type": "boolean",
+      "x-parquet-type": "BOOLEAN"
+    },
+    "skipped_out_of_range": {
+      "type": "boolean",
+      "description": "Whether any perturbation was skipped because it fell outside 40–200 cm.",
+      "x-csv-type": "boolean",
+      "x-parquet-type": "BOOLEAN"
+    }
+  }
+}

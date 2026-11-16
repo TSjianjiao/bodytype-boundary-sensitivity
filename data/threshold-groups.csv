@@ -1,0 +1,6 @@
+nearest_threshold,points,share_percent,flip_any_1cm,rate_percent
+bustToHip:0.95,207938,31,56712,27.3
+bustToHip:1.05,197659,29.5,57582,29.1
+waistToHip:0.80,92171,13.8,15667,17
+waistToHip:0.88,45636,6.8,10966,24
+highHipToHip:0.95,126454,18.9,17425,13.8

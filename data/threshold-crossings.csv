@@ -1,0 +1,6 @@
+threshold,flip_events,share_of_flip_events_percent
+bustToHip:0.95,119034,36.7
+bustToHip:1.05,123702,38.2
+waistToHip:0.80,31276,9.7
+waistToHip:0.88,24467,7.5
+highHipToHip:0.95,38036,11.7

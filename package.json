@@ -1,0 +1,21 @@
+{
+  "name": "bodytype-boundary-sensitivity",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic boundary-sensitivity scan of the Bodytype v2 four-girth classification rules.",
+  "license": "MIT",
+  "scripts": {
+    "analysis:boundary": "node scripts/analysis/boundary-sensitivity.mjs",
+    "analysis:parquet": "node scripts/analysis/csv-to-parquet.mjs",
+    "analysis:verify-parquet": "node scripts/analysis/verify-parquet.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "hyparquet": "^1.33.0",
+    "hyparquet-writer": "^0.18.0",
+    "vite": "8.2.2"
+  }
+}

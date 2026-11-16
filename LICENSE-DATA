@@ -1,0 +1,36 @@
+Synthetic data, tables and figures in this release are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+License text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by/4.0/
+
+Required attribution
+--------------------
+Any use of the data, tables or figures must credit Bodytype.org and link to
+https://bodytype.org.
+
+A suitable attribution line is:
+
+  Bodytype.org. "When a centimeter changes the label: boundary sensitivity in
+  a body type calculator" (algorithm v2, dataset 1.0).
+  https://bodytype.org/research/boundary-sensitivity-body-type-calculator
+
+The attribution must:
+- identify Bodytype.org as the source;
+- link to https://bodytype.org;
+- link to the source page above;
+- link to the CC BY 4.0 license; and
+- indicate if you changed the data, table or figure.
+
+Scope
+-----
+This license covers the synthetic grid, summary files, CSV tables and SVG
+figures in this delivery package. It does not cover the analysis code, which
+is released under the MIT License in the LICENSE file.
+
+The data are a deterministic scan of Bodytype's v2 classification rules on a
+synthetic grid. They are not a population sample, not an accuracy study, not
+medical data, and contain no user measurements.

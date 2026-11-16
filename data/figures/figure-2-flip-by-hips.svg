@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" role="img" aria-labelledby="figure-title figure-desc">
+  <title id="figure-title">One-centimeter flip rate by hip size</title>
+  <desc id="figure-desc">Bar chart of the ±1 cm single-field flip rate by hip circumference. Rates are 30.9% at 80 and 90 cm, 27.5% at 100 cm, and 19.1% from 110 to 140 cm. Each bar represents 95,694 synthetic tested points; the overall rate is 23.6%. This is not a population estimate.</desc>
+  <rect width="900" height="620" fill="#f7f2e9"/>
+  <style>
+    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; }
+    .display { font-family: "Geist", "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <text x="48" y="58" fill="#26313b" font-size="34" font-weight="650" class="display">±1 cm flip rate by hip size</text>
+  <text x="48" y="94" fill="#565d58" font-size="18">Share of tested points where any single-field ±1 cm shift changed the label.</text>
+  <g>
+  <line x1="92" y1="440" x2="852" y2="440" stroke="#eee7da" stroke-width="2"/>
+  <text x="76" y="446" fill="#565d58" font-size="18" text-anchor="end">0%</text>
+  <line x1="92" y1="354.8571428571429" x2="852" y2="354.8571428571429" stroke="#eee7da" stroke-width="2"/>
+  <text x="76" y="360.8571428571429" fill="#565d58" font-size="18" text-anchor="end">10%</text>
+  <line x1="92" y1="269.7142857142857" x2="852" y2="269.7142857142857" stroke="#eee7da" stroke-width="2"/>
+  <text x="76" y="275.7142857142857" fill="#565d58" font-size="18" text-anchor="end">20%</text>
+  <line x1="92" y1="184.57142857142858" x2="852" y2="184.57142857142858" stroke="#eee7da" stroke-width="2"/>
+  <text x="76" y="190.57142857142858" fill="#565d58" font-size="18" text-anchor="end">30%</text>
+  </g>
+  <line x1="92" y1="440" x2="852" y2="440" stroke="#26313b" stroke-width="2"/>
+  <line x1="92" y1="142" x2="92" y2="440" stroke="#26313b" stroke-width="2"/>
+  <line x1="92" y1="239.06285714285713" x2="852" y2="239.06285714285713" stroke="#26313b" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.55"/>
+  <text x="852" y="229.06285714285713" fill="#26313b" font-size="16" text-anchor="end">All tested points: 23.6%</text>
+  <path d="M 120.28571428571428 440 L 120.28571428571428 180.90857142857146 Q 120.28571428571428 176.90857142857146 124.28571428571428 176.90857142857146 L 168.28571428571428 176.90857142857146 Q 172.28571428571428 176.90857142857146 172.28571428571428 180.90857142857146 L 172.28571428571428 440 Z" fill="#cf5d48"/>
+  <text x="146.28571428571428" y="164.90857142857146" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">30.9%</text>
+  <text x="146.28571428571428" y="470" fill="#565d58" font-size="18" text-anchor="middle">80</text>
+  <path d="M 228.85714285714283 440 L 228.85714285714283 180.90857142857146 Q 228.85714285714283 176.90857142857146 232.85714285714283 176.90857142857146 L 276.85714285714283 176.90857142857146 Q 280.85714285714283 176.90857142857146 280.85714285714283 180.90857142857146 L 280.85714285714283 440 Z" fill="#cf5d48"/>
+  <text x="254.85714285714283" y="164.90857142857146" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">30.9%</text>
+  <text x="254.85714285714283" y="470" fill="#565d58" font-size="18" text-anchor="middle">90</text>
+  <path d="M 337.4285714285714 440 L 337.4285714285714 209.85714285714286 Q 337.4285714285714 205.85714285714286 341.4285714285714 205.85714285714286 L 385.4285714285714 205.85714285714286 Q 389.4285714285714 205.85714285714286 389.4285714285714 209.85714285714286 L 389.4285714285714 440 Z" fill="#cf5d48"/>
+  <text x="363.4285714285714" y="193.85714285714286" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">27.5%</text>
+  <text x="363.4285714285714" y="470" fill="#565d58" font-size="18" text-anchor="middle">100</text>
+  <path d="M 446 440 L 446 281.37714285714287 Q 446 277.37714285714287 450 277.37714285714287 L 494 277.37714285714287 Q 498 277.37714285714287 498 281.37714285714287 L 498 440 Z" fill="#cf5d48"/>
+  <text x="472" y="265.37714285714287" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">19.1%</text>
+  <text x="472" y="470" fill="#565d58" font-size="18" text-anchor="middle">110</text>
+  <path d="M 554.5714285714286 440 L 554.5714285714286 281.37714285714287 Q 554.5714285714286 277.37714285714287 558.5714285714286 277.37714285714287 L 602.5714285714286 277.37714285714287 Q 606.5714285714286 277.37714285714287 606.5714285714286 281.37714285714287 L 606.5714285714286 440 Z" fill="#cf5d48"/>
+  <text x="580.5714285714286" y="265.37714285714287" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">19.1%</text>
+  <text x="580.5714285714286" y="470" fill="#565d58" font-size="18" text-anchor="middle">120</text>
+  <path d="M 663.1428571428572 440 L 663.1428571428572 281.37714285714287 Q 663.1428571428572 277.37714285714287 667.1428571428572 277.37714285714287 L 711.1428571428572 277.37714285714287 Q 715.1428571428572 277.37714285714287 715.1428571428572 281.37714285714287 L 715.1428571428572 440 Z" fill="#cf5d48"/>
+  <text x="689.1428571428572" y="265.37714285714287" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">19.1%</text>
+  <text x="689.1428571428572" y="470" fill="#565d58" font-size="18" text-anchor="middle">130</text>
+  <path d="M 771.7142857142858 440 L 771.7142857142858 281.37714285714287 Q 771.7142857142858 277.37714285714287 775.7142857142858 277.37714285714287 L 819.7142857142858 277.37714285714287 Q 823.7142857142858 277.37714285714287 823.7142857142858 281.37714285714287 L 823.7142857142858 440 Z" fill="#cf5d48"/>
+  <text x="797.7142857142858" y="265.37714285714287" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">19.1%</text>
+  <text x="797.7142857142858" y="470" fill="#565d58" font-size="18" text-anchor="middle">140</text>
+  <text x="472" y="506" fill="#26313b" font-size="18" font-weight="600" text-anchor="middle">Hip circumference (cm)</text>
+  <text x="28" y="291" fill="#26313b" font-size="18" font-weight="600" text-anchor="middle" transform="rotate(-90 28 291)">Share of tested points</text>
+  <text x="48" y="546" fill="#565d58" font-size="16">Each bar uses 95,694 tested points at that hip size.</text>
+  <text x="48" y="570" fill="#565d58" font-size="16">1 cm is a sensitivity parameter, not a measurement-error distribution.</text>
+  <text x="48" y="596" fill="#565d58" font-size="14">Bodytype.org · bodytype.org/research/boundary-sensitivity-body-type-calculator · CC BY 4.0</text>
+  <text x="852" y="596" fill="#565d58" font-size="14" text-anchor="end">Synthetic rule-space scan · v2</text>
+</svg>

@@ -1,0 +1,743 @@
+{
+  "algorithmVersion": "2",
+  "generatedAt": "2026-11-16",
+  "commit": "4667943941e8bc10ed70b8ce56f1f3b1a49bb895",
+  "workingTreeDirty": true,
+  "ruleFilesDirty": false,
+  "nodeVersion": "v26.13.0",
+  "grid": {
+    "hipsCm": [
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140
+    ],
+    "bustToHip": {
+      "min": 0.9,
+      "max": 1.1,
+      "step": 0.005
+    },
+    "waistToHip": {
+      "min": 0.65,
+      "max": 0.95,
+      "step": 0.005
+    },
+    "highHipToHip": {
+      "min": 0.7,
+      "max": 1,
+      "step": 0.005
+    },
+    "constraint": "waist < high hip < hips",
+    "expectedTotal": 669858
+  },
+  "counts": {
+    "total": 669858,
+    "byBaseLabel": {
+      "hourglass": {
+        "count": 198450,
+        "sharePercent": 29.6
+      },
+      "pear": {
+        "count": 163380,
+        "sharePercent": 24.4
+      },
+      "inverted-triangle": {
+        "count": 163380,
+        "sharePercent": 24.4
+      },
+      "apple": {
+        "count": 35280,
+        "sharePercent": 5.3
+      },
+      "rectangle": {
+        "count": 109368,
+        "sharePercent": 16.3
+      }
+    },
+    "byHipsCm": {
+      "80": {
+        "count": 95694,
+        "sharePercent": 14.3
+      },
+      "90": {
+        "count": 95694,
+        "sharePercent": 14.3
+      },
+      "100": {
+        "count": 95694,
+        "sharePercent": 14.3
+      },
+      "110": {
+        "count": 95694,
+        "sharePercent": 14.3
+      },
+      "120": {
+        "count": 95694,
+        "sharePercent": 14.3
+      },
+      "130": {
+        "count": 95694,
+        "sharePercent": 14.3
+      },
+      "140": {
+        "count": 95694,
+        "sharePercent": 14.3
+      }
+    }
+  },
+  "flipRates": {
+    "any_0_5cm": {
+      "numerator": 76113,
+      "denominator": 669858,
+      "rate": 11.4
+    },
+    "any_1cm": {
+      "numerator": 158352,
+      "denominator": 669858,
+      "rate": 23.6
+    },
+    "any_2cm": {
+      "numerator": 307610,
+      "denominator": 669858,
+      "rate": 45.9
+    },
+    "byField_1cm": {
+      "bust": {
+        "numerator": 121368,
+        "denominator": 669858,
+        "rate": 18.1
+      },
+      "waist": {
+        "numerator": 28938,
+        "denominator": 669858,
+        "rate": 4.3
+      },
+      "hips": {
+        "numerator": 152274,
+        "denominator": 669858,
+        "rate": 22.7
+      },
+      "highHip": {
+        "numerator": 16926,
+        "denominator": 669858,
+        "rate": 2.5
+      }
+    },
+    "byField_0_5cm": {
+      "bust": {
+        "numerator": 56016,
+        "denominator": 669858,
+        "rate": 8.4
+      },
+      "waist": {
+        "numerator": 13356,
+        "denominator": 669858,
+        "rate": 2
+      },
+      "hips": {
+        "numerator": 70006,
+        "denominator": 669858,
+        "rate": 10.5
+      },
+      "highHip": {
+        "numerator": 7812,
+        "denominator": 669858,
+        "rate": 1.2
+      }
+    },
+    "byField_2cm": {
+      "bust": {
+        "numerator": 247404,
+        "denominator": 669858,
+        "rate": 36.9
+      },
+      "waist": {
+        "numerator": 58989,
+        "denominator": 669858,
+        "rate": 8.8
+      },
+      "hips": {
+        "numerator": 291293,
+        "denominator": 669858,
+        "rate": 43.5
+      },
+      "highHip": {
+        "numerator": 34503,
+        "denominator": 669858,
+        "rate": 5.2
+      }
+    },
+    "byDirection_1cm": {
+      "plus": {
+        "numerator": 154193,
+        "denominator": 669858,
+        "rate": 23
+      },
+      "minus": {
+        "numerator": 154229,
+        "denominator": 669858,
+        "rate": 23
+      }
+    },
+    "skippedOutOfRangePerturbations": 0
+  },
+  "stability": {
+    "lt1cm": 154674,
+    "oneTo3cm": 266976,
+    "gte3cmFinite": 248208,
+    "infinity": 0,
+    "atBoundary": 43715,
+    "sharePercent": {
+      "lt1cm": 23.1,
+      "oneTo3cm": 39.9,
+      "gte3cmFinite": 37.1,
+      "infinity": 0,
+      "atBoundary": 6.5
+    },
+    "note": "边界点（半径 0）计入 <1 cm，同时单独列出；Infinity 不并入有限半径分档。"
+  },
+  "rounding": {
+    "halfCm": {
+      "changed": 1449,
+      "denominator": 669858,
+      "rate": 0.2
+    },
+    "oneCm": {
+      "changed": 20095,
+      "denominator": 669858,
+      "rate": 3
+    },
+    "pointOneIn": {
+      "changed": 25820,
+      "denominator": 669858,
+      "rate": 3.9
+    }
+  },
+  "unitRoundTrip": {
+    "changed": 3417,
+    "denominator": 669858,
+    "changedAtBoundary": 3417,
+    "changedNotAtBoundary": 0,
+    "changedByBaseLabel": {
+      "hourglass": 1950,
+      "pear": 0,
+      "inverted-triangle": 0,
+      "apple": 723,
+      "rectangle": 744
+    },
+    "changedByNearestThreshold": {
+      "bustToHip:0.95": 2357,
+      "bustToHip:1.05": 53,
+      "waistToHip:0.80": 570,
+      "waistToHip:0.88": 437,
+      "highHipToHip:0.95": 0
+    },
+    "rate": 0.5,
+    "changedAtBoundarySharePercent": 100,
+    "changedNotAtBoundarySharePercent": 0,
+    "note": "仅做 cm→in→cm 精确换算的 sanity check，不引入中间舍入；边界点指稳定半径 0 的点。"
+  },
+  "byBaseLabel": {
+    "hourglass": {
+      "points": 198450,
+      "sharePercent": 29.6,
+      "flipAny1cm": {
+        "numerator": 59856,
+        "denominator": 198450,
+        "rate": 30.2
+      },
+      "flipByField1cm": {
+        "bust": {
+          "numerator": 43200,
+          "denominator": 198450,
+          "rate": 21.8
+        },
+        "waist": {
+          "numerator": 10311,
+          "denominator": 198450,
+          "rate": 5.2
+        },
+        "hips": {
+          "numerator": 58986,
+          "denominator": 198450,
+          "rate": 29.7
+        },
+        "highHip": {
+          "numerator": 10416,
+          "denominator": 198450,
+          "rate": 5.2
+        }
+      },
+      "stability": {
+        "lt1cm": 59856,
+        "oneTo3cm": 76442,
+        "gte3cmFinite": 62152,
+        "infinity": 0,
+        "atBoundary": 26880,
+        "sharePercent": {
+          "lt1cm": 30.2,
+          "oneTo3cm": 38.5,
+          "gte3cmFinite": 31.3,
+          "infinity": 0,
+          "atBoundary": 13.5
+        }
+      }
+    },
+    "pear": {
+      "points": 163380,
+      "sharePercent": 24.4,
+      "flipAny1cm": {
+        "numerator": 23340,
+        "denominator": 163380,
+        "rate": 14.3
+      },
+      "flipByField1cm": {
+        "bust": {
+          "numerator": 23340,
+          "denominator": 163380,
+          "rate": 14.3
+        },
+        "waist": {
+          "numerator": 0,
+          "denominator": 163380,
+          "rate": 0
+        },
+        "hips": {
+          "numerator": 21006,
+          "denominator": 163380,
+          "rate": 12.9
+        },
+        "highHip": {
+          "numerator": 0,
+          "denominator": 163380,
+          "rate": 0
+        }
+      },
+      "stability": {
+        "lt1cm": 21006,
+        "oneTo3cm": 60684,
+        "gte3cmFinite": 81690,
+        "infinity": 0,
+        "atBoundary": 0,
+        "sharePercent": {
+          "lt1cm": 12.9,
+          "oneTo3cm": 37.1,
+          "gte3cmFinite": 50,
+          "infinity": 0,
+          "atBoundary": 0
+        }
+      }
+    },
+    "inverted-triangle": {
+      "points": 163380,
+      "sharePercent": 24.4,
+      "flipAny1cm": {
+        "numerator": 23340,
+        "denominator": 163380,
+        "rate": 14.3
+      },
+      "flipByField1cm": {
+        "bust": {
+          "numerator": 23340,
+          "denominator": 163380,
+          "rate": 14.3
+        },
+        "waist": {
+          "numerator": 0,
+          "denominator": 163380,
+          "rate": 0
+        },
+        "hips": {
+          "numerator": 23340,
+          "denominator": 163380,
+          "rate": 14.3
+        },
+        "highHip": {
+          "numerator": 0,
+          "denominator": 163380,
+          "rate": 0
+        }
+      },
+      "stability": {
+        "lt1cm": 23340,
+        "oneTo3cm": 63018,
+        "gte3cmFinite": 77022,
+        "infinity": 0,
+        "atBoundary": 0,
+        "sharePercent": {
+          "lt1cm": 14.3,
+          "oneTo3cm": 38.6,
+          "gte3cmFinite": 47.1,
+          "infinity": 0,
+          "atBoundary": 0
+        }
+      }
+    },
+    "apple": {
+      "points": 35280,
+      "sharePercent": 5.3,
+      "flipAny1cm": {
+        "numerator": 13680,
+        "denominator": 35280,
+        "rate": 38.8
+      },
+      "flipByField1cm": {
+        "bust": {
+          "numerator": 7680,
+          "denominator": 35280,
+          "rate": 21.8
+        },
+        "waist": {
+          "numerator": 7497,
+          "denominator": 35280,
+          "rate": 21.3
+        },
+        "hips": {
+          "numerator": 13365,
+          "denominator": 35280,
+          "rate": 37.9
+        },
+        "highHip": {
+          "numerator": 0,
+          "denominator": 35280,
+          "rate": 0
+        }
+      },
+      "stability": {
+        "lt1cm": 13680,
+        "oneTo3cm": 14171,
+        "gte3cmFinite": 7429,
+        "infinity": 0,
+        "atBoundary": 6419,
+        "sharePercent": {
+          "lt1cm": 38.8,
+          "oneTo3cm": 40.2,
+          "gte3cmFinite": 21.1,
+          "infinity": 0,
+          "atBoundary": 18.2
+        }
+      }
+    },
+    "rectangle": {
+      "points": 109368,
+      "sharePercent": 16.3,
+      "flipAny1cm": {
+        "numerator": 38136,
+        "denominator": 109368,
+        "rate": 34.9
+      },
+      "flipByField1cm": {
+        "bust": {
+          "numerator": 23808,
+          "denominator": 109368,
+          "rate": 21.8
+        },
+        "waist": {
+          "numerator": 11130,
+          "denominator": 109368,
+          "rate": 10.2
+        },
+        "hips": {
+          "numerator": 35577,
+          "denominator": 109368,
+          "rate": 32.5
+        },
+        "highHip": {
+          "numerator": 6510,
+          "denominator": 109368,
+          "rate": 6
+        }
+      },
+      "stability": {
+        "lt1cm": 36792,
+        "oneTo3cm": 52661,
+        "gte3cmFinite": 19915,
+        "infinity": 0,
+        "atBoundary": 10416,
+        "sharePercent": {
+          "lt1cm": 33.6,
+          "oneTo3cm": 48.2,
+          "gte3cmFinite": 18.2,
+          "infinity": 0,
+          "atBoundary": 9.5
+        }
+      }
+    }
+  },
+  "thresholdGroups": {
+    "bustToHip:0.95": {
+      "points": 207938,
+      "sharePercent": 31,
+      "flipAny1cm": {
+        "numerator": 56712,
+        "denominator": 207938,
+        "rate": 27.3
+      }
+    },
+    "bustToHip:1.05": {
+      "points": 197659,
+      "sharePercent": 29.5,
+      "flipAny1cm": {
+        "numerator": 57582,
+        "denominator": 197659,
+        "rate": 29.1
+      }
+    },
+    "waistToHip:0.80": {
+      "points": 92171,
+      "sharePercent": 13.8,
+      "flipAny1cm": {
+        "numerator": 15667,
+        "denominator": 92171,
+        "rate": 17
+      }
+    },
+    "waistToHip:0.88": {
+      "points": 45636,
+      "sharePercent": 6.8,
+      "flipAny1cm": {
+        "numerator": 10966,
+        "denominator": 45636,
+        "rate": 24
+      }
+    },
+    "highHipToHip:0.95": {
+      "points": 126454,
+      "sharePercent": 18.9,
+      "flipAny1cm": {
+        "numerator": 17425,
+        "denominator": 126454,
+        "rate": 13.8
+      }
+    }
+  },
+  "hipsGroups": {
+    "80": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 29535,
+        "denominator": 95694,
+        "rate": 30.9
+      }
+    },
+    "90": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 29535,
+        "denominator": 95694,
+        "rate": 30.9
+      }
+    },
+    "100": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 26334,
+        "denominator": 95694,
+        "rate": 27.5
+      }
+    },
+    "110": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 18237,
+        "denominator": 95694,
+        "rate": 19.1
+      }
+    },
+    "120": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 18237,
+        "denominator": 95694,
+        "rate": 19.1
+      }
+    },
+    "130": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 18237,
+        "denominator": 95694,
+        "rate": 19.1
+      }
+    },
+    "140": {
+      "points": 95694,
+      "flipAny1cm": {
+        "numerator": 18237,
+        "denominator": 95694,
+        "rate": 19.1
+      }
+    }
+  },
+  "transitionMatrix": {
+    "pear|hourglass": 24463,
+    "pear|rectangle": 15057,
+    "pear|apple": 4826,
+    "hourglass|pear": 43200,
+    "hourglass|rectangle": 37241,
+    "rectangle|pear": 23808,
+    "rectangle|hourglass": 21680,
+    "rectangle|apple": 8673,
+    "apple|pear": 7680,
+    "apple|rectangle": 13770,
+    "hourglass|inverted-triangle": 44550,
+    "rectangle|inverted-triangle": 24552,
+    "apple|inverted-triangle": 7920,
+    "inverted-triangle|hourglass": 27738,
+    "inverted-triangle|rectangle": 14634,
+    "inverted-triangle|apple": 4308
+  },
+  "transitionByField": {
+    "pear|hourglass|bust|+|bustToHip:0.95": 13500,
+    "pear|hourglass|hips|-|bustToHip:0.95": 10963,
+    "pear|rectangle|hips|-|bustToHip:0.95+highHipToHip:0.95": 940,
+    "pear|rectangle|bust|+|bustToHip:0.95": 7440,
+    "pear|rectangle|hips|-|bustToHip:0.95": 5966,
+    "pear|rectangle|hips|-|bustToHip:0.95+waistToHip:0.80": 667,
+    "pear|rectangle|hips|-|bustToHip:0.95+waistToHip:0.80+highHipToHip:0.95": 44,
+    "pear|apple|hips|-|bustToHip:0.95+waistToHip:0.88": 238,
+    "pear|apple|hips|-|bustToHip:0.95+waistToHip:0.88+highHipToHip:0.95": 28,
+    "pear|apple|bust|+|bustToHip:0.95": 2400,
+    "pear|apple|hips|-|bustToHip:0.95": 1869,
+    "pear|apple|hips|-|bustToHip:0.95+highHipToHip:0.95": 291,
+    "hourglass|pear|bust|-|bustToHip:0.95": 21600,
+    "hourglass|pear|hips|+|bustToHip:0.95": 21600,
+    "hourglass|rectangle|hips|-|highHipToHip:0.95": 8584,
+    "hourglass|rectangle|highHip|+|highHipToHip:0.95": 10416,
+    "rectangle|pear|bust|-|bustToHip:0.95": 11904,
+    "rectangle|pear|hips|+|bustToHip:0.95+highHipToHip:0.95": 990,
+    "rectangle|hourglass|highHip|-|highHipToHip:0.95": 6510,
+    "rectangle|pear|hips|+|bustToHip:0.95": 10306,
+    "hourglass|rectangle|waist|+|waistToHip:0.80": 10311,
+    "hourglass|rectangle|hips|-|waistToHip:0.80": 7338,
+    "hourglass|rectangle|hips|-|waistToHip:0.80+highHipToHip:0.95": 592,
+    "rectangle|hourglass|waist|-|waistToHip:0.80": 6027,
+    "rectangle|pear|hips|+|bustToHip:0.95+waistToHip:0.80": 586,
+    "rectangle|pear|hips|+|bustToHip:0.95+waistToHip:0.80+highHipToHip:0.95": 22,
+    "rectangle|apple|waist|+|waistToHip:0.88": 5103,
+    "rectangle|apple|hips|-|waistToHip:0.88": 3220,
+    "rectangle|apple|hips|-|waistToHip:0.88+highHipToHip:0.95": 350,
+    "apple|pear|bust|-|bustToHip:0.95": 3840,
+    "apple|rectangle|waist|-|waistToHip:0.88": 7497,
+    "apple|pear|hips|+|bustToHip:0.95+waistToHip:0.88": 733,
+    "apple|pear|hips|+|bustToHip:0.95+waistToHip:0.88+highHipToHip:0.95": 50,
+    "apple|pear|hips|+|bustToHip:0.95": 2777,
+    "apple|pear|hips|+|bustToHip:0.95+highHipToHip:0.95": 280,
+    "rectangle|hourglass|hips|+|highHipToHip:0.95": 5177,
+    "rectangle|hourglass|hips|+|waistToHip:0.80": 3799,
+    "rectangle|hourglass|hips|+|waistToHip:0.80+highHipToHip:0.95": 167,
+    "apple|rectangle|hips|+|waistToHip:0.88": 5903,
+    "apple|rectangle|hips|+|waistToHip:0.88+highHipToHip:0.95": 370,
+    "hourglass|inverted-triangle|bust|+|bustToHip:1.05": 21600,
+    "hourglass|inverted-triangle|hips|-|bustToHip:1.05": 20753,
+    "hourglass|inverted-triangle|hips|-|bustToHip:1.05+highHipToHip:0.95": 1160,
+    "rectangle|inverted-triangle|bust|+|bustToHip:1.05": 11904,
+    "rectangle|inverted-triangle|hips|-|bustToHip:1.05": 11308,
+    "hourglass|inverted-triangle|hips|-|bustToHip:1.05+waistToHip:0.80": 957,
+    "hourglass|inverted-triangle|hips|-|bustToHip:1.05+waistToHip:0.80+highHipToHip:0.95": 80,
+    "rectangle|inverted-triangle|hips|-|bustToHip:1.05+waistToHip:0.80": 306,
+    "rectangle|inverted-triangle|hips|-|bustToHip:1.05+highHipToHip:0.95": 551,
+    "rectangle|inverted-triangle|hips|-|bustToHip:1.05+waistToHip:0.88": 434,
+    "rectangle|inverted-triangle|hips|-|bustToHip:1.05+waistToHip:0.88+highHipToHip:0.95": 49,
+    "apple|inverted-triangle|bust|+|bustToHip:1.05": 3840,
+    "apple|inverted-triangle|hips|-|bustToHip:1.05": 3549,
+    "apple|inverted-triangle|hips|-|bustToHip:1.05+highHipToHip:0.95": 531,
+    "inverted-triangle|hourglass|bust|-|bustToHip:1.05": 13500,
+    "inverted-triangle|hourglass|hips|+|bustToHip:1.05": 13500,
+    "inverted-triangle|rectangle|bust|-|bustToHip:1.05": 7440,
+    "inverted-triangle|hourglass|hips|+|bustToHip:1.05+highHipToHip:0.95": 434,
+    "inverted-triangle|rectangle|hips|+|bustToHip:1.05": 6430,
+    "inverted-triangle|hourglass|hips|+|bustToHip:1.05+waistToHip:0.80": 290,
+    "inverted-triangle|hourglass|hips|+|bustToHip:1.05+waistToHip:0.80+highHipToHip:0.95": 14,
+    "inverted-triangle|rectangle|hips|+|bustToHip:1.05+waistToHip:0.80": 76,
+    "inverted-triangle|rectangle|hips|+|bustToHip:1.05+highHipToHip:0.95": 196,
+    "inverted-triangle|apple|bust|-|bustToHip:1.05": 2400,
+    "inverted-triangle|rectangle|hips|+|bustToHip:1.05+waistToHip:0.88": 460,
+    "inverted-triangle|rectangle|hips|+|bustToHip:1.05+waistToHip:0.88+highHipToHip:0.95": 32,
+    "inverted-triangle|apple|hips|+|bustToHip:1.05": 1730,
+    "inverted-triangle|apple|hips|+|bustToHip:1.05+highHipToHip:0.95": 178
+  },
+  "thresholdCrossings": {
+    "totalFlipEvents": 324100,
+    "eventsWithMultipleThresholds": 12096,
+    "eventsWithNoThreshold": 0,
+    "byThreshold": {
+      "bustToHip:0.95": {
+        "events": 119034,
+        "shareOfFlipEvents": 36.7
+      },
+      "bustToHip:1.05": {
+        "events": 123702,
+        "shareOfFlipEvents": 38.2
+      },
+      "waistToHip:0.80": {
+        "events": 31276,
+        "shareOfFlipEvents": 9.7
+      },
+      "waistToHip:0.88": {
+        "events": 24467,
+        "shareOfFlipEvents": 7.5
+      },
+      "highHipToHip:0.95": {
+        "events": 38036,
+        "shareOfFlipEvents": 11.7
+      }
+    }
+  },
+  "warningCases": {
+    "total": 198,
+    "highHipAboveHips": 72,
+    "highHipAtHips": 36,
+    "highHipAtOrBelowWaist": 90,
+    "both": 0,
+    "withWarnings": 162,
+    "withoutWarnings": 36,
+    "equalityWithoutWarning": 36,
+    "warningCounts": {
+      "Your high hip is not larger than your waist. Check that the tape is between the waist and hip levels, not at the waist; the result uses the values as entered.": 90,
+      "Your high hip is larger than your full hip. High hip is measured midway between the waist and hip levels, so check the tape height; the result uses the values as entered.": 72
+    },
+    "allLabelsValid": true
+  },
+  "checks": {
+    "uniqueIds": true,
+    "allValuesInRange": true,
+    "gridCountMatches": true,
+    "tierMatchesRadius": true,
+    "neighborsValid": true,
+    "deterministic": true,
+    "unitRoundTripChanges": 3417,
+    "unitRoundTripChangesAtBoundary": 3417,
+    "unitRoundTripChangesNotAtBoundary": 0,
+    "total": 669858,
+    "transitionEvents": 324100,
+    "flipEvents": 324100,
+    "transitionEventsMatch": true,
+    "labelOrderMatches": true,
+    "allFlipEventsCrossThreshold": true,
+    "eventsWithMultipleThresholds": 12096,
+    "eventsWithNoThreshold": 0,
+    "warningCasesAllLabelsValid": true,
+    "warningCasesTotal": 198,
+    "warningCasesWithWarnings": 162,
+    "warningCasesWithoutWarnings": 36,
+    "warningCasesEqualityWithoutWarning": 36
+  },
+  "outputs": {
+    "fullGrid": "grid.csv",
+    "sample": "grid-sample.csv",
+    "summary": "summary.json",
+    "transitionMatrix": "transition-matrix.csv",
+    "transitionMatrixByField": "transition-matrix-by-field.csv",
+    "thresholdCrossings": "threshold-crossings.csv",
+    "stabilityCdf": "figure-1-stability-cdf.csv",
+    "flipByHips": "figure-2-flip-by-hips.csv",
+    "thresholdGroups": "threshold-groups.csv",
+    "warningCases": "warning-cases.csv",
+    "method": "METHOD.md",
+    "note": "全量 parquet 待发布阶段由 grid.csv 转换；本次只生成本地全量 CSV。"
+  }
+}

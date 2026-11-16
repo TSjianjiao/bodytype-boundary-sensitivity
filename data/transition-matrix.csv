@@ -1,0 +1,17 @@
+base_label,target_label,flip_events,share_of_base_points
+hourglass,pear,43200,21.8
+hourglass,inverted-triangle,44550,22.4
+hourglass,rectangle,37241,18.8
+pear,hourglass,24463,15
+pear,apple,4826,3
+pear,rectangle,15057,9.2
+inverted-triangle,hourglass,27738,17
+inverted-triangle,apple,4308,2.6
+inverted-triangle,rectangle,14634,9
+apple,pear,7680,21.8
+apple,inverted-triangle,7920,22.4
+apple,rectangle,13770,39
+rectangle,hourglass,21680,19.8
+rectangle,pear,23808,21.8
+rectangle,inverted-triangle,24552,22.4
+rectangle,apple,8673,7.9

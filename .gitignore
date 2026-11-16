@@ -1,0 +1,10 @@
+# 依赖与构建输出
+node_modules/
+public/
+
+# 全量扫描输出；只提交 data/ 下的公开快照
+data/boundary-sensitivity/
+
+# 本地日志与系统文件
+*.log
+.DS_Store

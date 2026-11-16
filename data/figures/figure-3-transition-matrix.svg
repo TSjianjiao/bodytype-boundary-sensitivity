@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 860" width="900" height="860" role="img" aria-labelledby="figure-title figure-desc">
+  <title id="figure-title">Label transition matrix under one-centimeter single-field shifts</title>
+  <desc id="figure-desc">Heatmap of label transitions in the Bodytype v2 synthetic scan. Hourglass moves to Inverted triangle in 44,550 events (22.4% of base points), to Pear in 43,200 (21.8%) and to Rectangle in 37,241 (18.8%). Every cell prints the event count and share, so color is not the only encoding.</desc>
+  <rect width="900" height="860" fill="#f7f2e9"/>
+  <style>
+    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; }
+    .display { font-family: "Geist", "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <text x="48" y="58" fill="#26313b" font-size="34" font-weight="650" class="display">Label transitions under ±1 cm single-field shifts</text>
+  <text x="48" y="94" fill="#565d58" font-size="18">Each cell: flip events and share of tested points with that base label.</text>
+  <text x="224" y="138" fill="#565d58" font-size="15">Base label ↓ / shifted label →</text>
+  <text x="286.8" y="184" fill="#26313b" font-size="17" font-weight="600" text-anchor="middle">Hourglass</text>
+  <text x="412.40000000000003" y="184" fill="#26313b" font-size="17" font-weight="600" text-anchor="middle">Pear</text>
+  <text x="538" y="162" fill="#26313b" font-size="17" font-weight="600" text-anchor="middle">Inverted</text>
+  <text x="538" y="184" fill="#26313b" font-size="17" font-weight="600" text-anchor="middle">triangle</text>
+  <text x="663.5999999999999" y="184" fill="#26313b" font-size="17" font-weight="600" text-anchor="middle">Apple</text>
+  <text x="789.1999999999999" y="184" fill="#26313b" font-size="17" font-weight="600" text-anchor="middle">Rectangle</text>
+  <text x="206" y="253.6" fill="#26313b" font-size="19" font-weight="600" text-anchor="end">Hourglass</text>
+  <text x="206" y="340.8" fill="#26313b" font-size="19" font-weight="600" text-anchor="end">Pear</text>
+  <text x="206" y="428" fill="#26313b" font-size="19" font-weight="600" text-anchor="end">Inverted triangle</text>
+  <text x="206" y="515.2" fill="#26313b" font-size="19" font-weight="600" text-anchor="end">Apple</text>
+  <text x="206" y="602.4" fill="#26313b" font-size="19" font-weight="600" text-anchor="end">Rectangle</text>
+  <rect x="226" y="206" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="286.8" y="254.6" fill="#565d58" font-size="20" text-anchor="middle">—</text>
+  <rect x="351.6" y="206" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.31"/>
+  <text x="412.40000000000003" y="243.6" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">43,200</text>
+  <text x="412.40000000000003" y="267.6" fill="#26313b" font-size="17" text-anchor="middle">21.8%</text>
+  <rect x="477.2" y="206" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.31"/>
+  <text x="538" y="243.6" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">44,550</text>
+  <text x="538" y="267.6" fill="#26313b" font-size="17" text-anchor="middle">22.4%</text>
+  <rect x="602.8" y="206" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="663.5999999999999" y="254.6" fill="#565d58" font-size="20" text-anchor="middle">0</text>
+  <rect x="728.4" y="206" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.27"/>
+  <text x="789.1999999999999" y="243.6" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">37,241</text>
+  <text x="789.1999999999999" y="267.6" fill="#26313b" font-size="17" text-anchor="middle">18.8%</text>
+  <rect x="226" y="293.2" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.23"/>
+  <text x="286.8" y="330.8" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">24,463</text>
+  <text x="286.8" y="354.8" fill="#26313b" font-size="17" text-anchor="middle">15.0%</text>
+  <rect x="351.6" y="293.2" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="412.40000000000003" y="341.8" fill="#565d58" font-size="20" text-anchor="middle">—</text>
+  <rect x="477.2" y="293.2" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="538" y="341.8" fill="#565d58" font-size="20" text-anchor="middle">0</text>
+  <rect x="602.8" y="293.2" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.09"/>
+  <text x="663.5999999999999" y="330.8" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">4,826</text>
+  <text x="663.5999999999999" y="354.8" fill="#26313b" font-size="17" text-anchor="middle">3.0%</text>
+  <rect x="728.4" y="293.2" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.16"/>
+  <text x="789.1999999999999" y="330.8" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">15,057</text>
+  <text x="789.1999999999999" y="354.8" fill="#26313b" font-size="17" text-anchor="middle">9.2%</text>
+  <rect x="226" y="380.4" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.25"/>
+  <text x="286.8" y="418" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">27,738</text>
+  <text x="286.8" y="442" fill="#26313b" font-size="17" text-anchor="middle">17.0%</text>
+  <rect x="351.6" y="380.4" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="412.40000000000003" y="429" fill="#565d58" font-size="20" text-anchor="middle">0</text>
+  <rect x="477.2" y="380.4" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="538" y="429" fill="#565d58" font-size="20" text-anchor="middle">—</text>
+  <rect x="602.8" y="380.4" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.09"/>
+  <text x="663.5999999999999" y="418" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">4,308</text>
+  <text x="663.5999999999999" y="442" fill="#26313b" font-size="17" text-anchor="middle">2.6%</text>
+  <rect x="728.4" y="380.4" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.16"/>
+  <text x="789.1999999999999" y="418" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">14,634</text>
+  <text x="789.1999999999999" y="442" fill="#26313b" font-size="17" text-anchor="middle">9.0%</text>
+  <rect x="226" y="467.6" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="286.8" y="516.2" fill="#565d58" font-size="20" text-anchor="middle">0</text>
+  <rect x="351.6" y="467.6" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.31"/>
+  <text x="412.40000000000003" y="505.20000000000005" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">7,680</text>
+  <text x="412.40000000000003" y="529.2" fill="#26313b" font-size="17" text-anchor="middle">21.8%</text>
+  <rect x="477.2" y="467.6" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.31"/>
+  <text x="538" y="505.20000000000005" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">7,920</text>
+  <text x="538" y="529.2" fill="#26313b" font-size="17" text-anchor="middle">22.4%</text>
+  <rect x="602.8" y="467.6" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="663.5999999999999" y="516.2" fill="#565d58" font-size="20" text-anchor="middle">—</text>
+  <rect x="728.4" y="467.6" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.50"/>
+  <text x="789.1999999999999" y="505.20000000000005" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">13,770</text>
+  <text x="789.1999999999999" y="529.2" fill="#26313b" font-size="17" text-anchor="middle">39.0%</text>
+  <rect x="226" y="554.8" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.28"/>
+  <text x="286.8" y="592.4" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">21,680</text>
+  <text x="286.8" y="616.4" fill="#26313b" font-size="17" text-anchor="middle">19.8%</text>
+  <rect x="351.6" y="554.8" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.31"/>
+  <text x="412.40000000000003" y="592.4" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">23,808</text>
+  <text x="412.40000000000003" y="616.4" fill="#26313b" font-size="17" text-anchor="middle">21.8%</text>
+  <rect x="477.2" y="554.8" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.31"/>
+  <text x="538" y="592.4" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">24,552</text>
+  <text x="538" y="616.4" fill="#26313b" font-size="17" text-anchor="middle">22.4%</text>
+  <rect x="602.8" y="554.8" width="121.6" height="83.2" rx="4" fill="#a8462f" fill-opacity="0.15"/>
+  <text x="663.5999999999999" y="592.4" fill="#26313b" font-size="20" font-weight="650" text-anchor="middle">8,673</text>
+  <text x="663.5999999999999" y="616.4" fill="#26313b" font-size="17" text-anchor="middle">7.9%</text>
+  <rect x="728.4" y="554.8" width="121.6" height="83.2" rx="4" fill="#eee7da"/>
+  <text x="789.1999999999999" y="603.4" fill="#565d58" font-size="20" text-anchor="middle">—</text>
+  <text x="224" y="714" fill="#26313b" font-size="16" font-weight="600">Share of base-label points</text>
+  <rect x="224" y="742" width="28" height="18" rx="3" fill="#a8462f" fill-opacity="0.06"/>
+  <text x="260" y="756" fill="#565d58" font-size="15">0%</text>
+  <rect x="298" y="742" width="28" height="18" rx="3" fill="#a8462f" fill-opacity="0.21"/>
+  <text x="334" y="756" fill="#565d58" font-size="15">13%</text>
+  <rect x="372" y="742" width="28" height="18" rx="3" fill="#a8462f" fill-opacity="0.35"/>
+  <text x="408" y="756" fill="#565d58" font-size="15">26%</text>
+  <rect x="446" y="742" width="28" height="18" rx="3" fill="#a8462f" fill-opacity="0.50"/>
+  <text x="482" y="756" fill="#565d58" font-size="15">39%</text>
+  <text x="48" y="786" fill="#565d58" font-size="16">Darker fill means a larger share; exact values are printed in every cell.</text>
+  <text x="48" y="810" fill="#565d58" font-size="16">Diagonal cells are not transitions. These are events, not people.</text>
+  <text x="48" y="836" fill="#565d58" font-size="14">Bodytype.org · bodytype.org/research/boundary-sensitivity-body-type-calculator · CC BY 4.0</text>
+  <text x="852" y="836" fill="#565d58" font-size="14" text-anchor="end">Synthetic rule-space scan · v2</text>
+</svg>

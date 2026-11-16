@@ -1,0 +1,38 @@
+Bodytype.org boundary sensitivity release
+Copyright (c) 2026 Bodytype.org
+https://bodytype.org
+
+Attribution requirement
+-----------------------
+Any use of the code, data, tables or figures in this release must credit
+Bodytype.org and link to https://bodytype.org.
+
+For the synthetic data, tables and figures, this attribution is required by
+the CC BY 4.0 license. For the analysis code, the MIT License applies; keep
+its copyright and permission notice, and also credit Bodytype.org with a link
+to https://bodytype.org when you reuse the code.
+
+Source page:
+https://bodytype.org/research/boundary-sensitivity-body-type-calculator
+
+Scope and limits
+----------------
+This release is a deterministic sensitivity analysis of Bodytype's v2
+four-girth classification rules on a synthetic rule-space grid. It is not a
+population sample, an accuracy study, a measurement-error model, medical data
+or a medical device. It contains no user measurements.
+
+The full grid contains 669,858 synthetic rows. The site page reports aggregate
+results; the full parquet file is distributed through the dataset release, not
+the site repository.
+
+Files and checksums
+-------------------
+See data/SHA256SUMS for the generated CSV, JSON and Markdown files, and
+data/SHA256SUMS.parquet for the full parquet file. Figures are generated from
+the CSV files in data/.
+
+Contacts
+--------
+Bodytype.org
+https://bodytype.org

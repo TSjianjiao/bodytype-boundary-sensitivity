@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this analysis, data, tables or figures, cite this release and credit Bodytype.org with a link to https://bodytype.org."
+title: "When a centimeter changes the label: boundary sensitivity in a body type calculator"
+abstract: >-
+  A deterministic sensitivity analysis of Bodytype's v2 four-girth body type
+  classification rules on a synthetic rule-space grid of 669,858 tested
+  points. The release reports how often single-field shifts of ±0.5 cm, ±1 cm
+  and ±2 cm change the label, how close tested points sit to a rule boundary,
+  which thresholds are crossed, and how rounding affects labels. It is not a
+  population sample, an accuracy study, a measurement-error model or medical
+  data. The analysis code is released under the MIT License; synthetic data,
+  tables and figures are released under CC BY 4.0. Any use must credit
+  Bodytype.org and link to https://bodytype.org.
+type: dataset
+authors:
+  - name: "Bodytype.org"
+version: "1.0.0"
+date-released: "2026-11-16"
+license: "CC-BY-4.0"
+url: "https://bodytype.org/research/boundary-sensitivity-body-type-calculator"
+repository-code: "https://github.com/TSjianjiao/bodytype-boundary-sensitivity"
+keywords:
+  - body type calculator
+  - sensitivity analysis
+  - classification boundaries
+  - synthetic data
+  - measurement rounding
+  - reproducibility
